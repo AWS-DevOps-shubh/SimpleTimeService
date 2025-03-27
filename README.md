@@ -57,7 +57,7 @@ docker build -t simple-time-service .
 ```bash
 docker images
 ```
-### Run the Container from the Build image
+### Run the Container from the Build image in Background
 ```bash
 docker run -d -p 5000:5000 simple-time-service
 ```
