@@ -9,5 +9,17 @@ SimpleTimeService is a minimalist microservice that returns the current timestam
   "timestamp": "<current date and time>",
   "ip": "<the IP address of the visitor>"
   }
-- Lightweight and Dockerized.
+- Lightweight Flask-based web server and Dockerized.
 - Runs as a non-root user inside the container.
+
+## Prerequisites
+- AWS EC2 instance
+- Docker installed
+- Basic understanding of command-line
+
+
+## Step by Step Installation
+SSH access to your EC2 instance
+```bash
+ssh -i "key-name" username@ec2-ip-address.compute-1.amazonaws.com
+```
