@@ -11,6 +11,7 @@ SimpleTimeService is a minimalist microservice that returns the current timestam
   }
 - Lightweight Flask-based web server and Dockerized.
 - Runs as a non-root user inside the container.
+
 🏗️ Project Structure
 ```bash
 /simple-time-service
