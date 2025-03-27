@@ -74,5 +74,17 @@ http://localhost:5000/
 **Note:** Replace your AWS EC2 IP to localhost
 
 
+## Publishing to Docker Hub
+To publish your image to Docker Hub, follow these steps:
+1) To tag the name to your image
+```bash
+docker tag simple-time-service your-dockerhub-username/simple-time-service
+```
+2) After that push your image to DockerHub
+```bash
+docker push your-dockerhub-username/simple-time-service
+```
+
+
 
 
