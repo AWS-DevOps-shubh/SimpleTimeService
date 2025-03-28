@@ -35,10 +35,7 @@ ssh -i "key-name" username@ec2-ip-address.compute-1.amazonaws.com
 ```bash
 sudo apt-get update
 ```
-### Clone Application from GitHub
-```bash
-git clone https://github.com/AWS-DevOps-shubh/SimpleTimeService.git
-```
+
 ### Install Docker on server
 ```bash
 sudo apt install docker.io -y
@@ -52,7 +49,14 @@ sudo apt install docker.io -y
   newgrp docker
   ```
 **Note:** Please review the Dockerfile to understand its configuration before proceeding with the build.
-
+### Clone Application from GitHub
+```bash
+git clone https://github.com/AWS-DevOps-shubh/SimpleTimeService.git
+```
+### Ones clone the application you see the SimpleTimeService directory
+```bash
+cd SimpleTimeService
+```
 ### Build the Docker image from the Dockerfile
 ```bash
 docker build -t simple-time-service .
